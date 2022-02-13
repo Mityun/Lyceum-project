@@ -8,3 +8,12 @@
     background-color: white;
     border-radius: 100%;
 }
+
+.dark-theme .yellow-text {
+    color: #FFEB37;
+    font-weight: bold;
+}
+
+.dark-theme .git-info > ul > li > a {
+    color: #FFEB37;
+}

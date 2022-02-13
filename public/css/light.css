@@ -12,3 +12,24 @@
     color: black;
     text-decoration: none;
 }
+
+.light-theme .contacts > .about-text >  .contacts-block > ul > li > a {
+    color: black;
+}
+
+.light-theme .bio {
+    color: black;
+}
+
+.light-theme .tree-pic > path{
+    fill: white;
+}
+
+.light-theme .yellow-text {
+    color: #ffc506;
+    font-weight: bold;
+}
+
+.light-theme .git-info > ul > li > a {
+    color: #ffc506;
+}

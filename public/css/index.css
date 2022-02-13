@@ -49,7 +49,7 @@ body {
 }
 
 .header-left, .header-right{
-    font-size: large;
+    font-size: 28px;
     line-height: 34px;
     vertical-align: baseline;
 }
@@ -131,11 +131,16 @@ body {
 
 .contacts > .about-text >  .contacts-block > ul {
     list-style-type: none;
+    text-align: left;
+    font-size: 40px;
+}
+
+.contacts > .about-text >  .contacts-block > ul > li + li {
+    margin-top: 5%;
 }
 
 .contacts > .about-text >  .contacts-block > ul > li > a {
     color: white;
-    text-decoration: none;
 }
 
 .bio {
@@ -152,7 +157,114 @@ body {
 .theme-switcher {
     size: 40px;
 }
-
+/*skills tree */
 .skill-tree {
     position: relative;
+}
+
+.svg-dark {
+    margin-top: 10%;
+    margin-bottom: 5%;
+}
+
+.tree-pic {
+    margin-top: 10%;
+}
+/* Python info in skills tree */
+.python-info {
+    position: absolute;
+    margin-top: 40%;
+    left: -10%;
+    max-width: 400px;
+    word-break:break-word;
+}
+
+.python-info > ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.python-info > ul > li {
+    font-size: 20px;
+    margin-top: 5%;
+}
+/* GIT info in skills tree */
+.git-info {
+    position: absolute;
+    margin-top: 76%;
+    left: 60%;
+    max-width: 400px;
+    word-break:break-word;
+}
+
+.git-info > ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.git-info > ul > li {
+    font-size: 20px;
+    margin-top: 5%;
+}
+/* Java info in skills tree */
+.java-info {
+    position: absolute;
+    margin-top: 110%;
+    left: -10%;
+    max-width: 400px;
+    word-break:break-word;
+}
+
+.java-info > ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.java-info > ul > li {
+    font-size: 20px;
+    margin-top: 5%;
+}
+/* Javascript info in skills tree */
+.javascript-info {
+    position: absolute;
+    margin-top: 142%;
+    left: 60%;
+    max-width: 400px;
+    word-break:break-word;
+}
+
+.javascript-info > ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.javascript-info > ul > li {
+    font-size: 20px;
+    margin-top: 5%;
+}
+/* Last info in skills tree */
+.last-info {
+    position: absolute;
+    margin-top: 175.5%;
+    left: -10%;
+    max-width: 400px;
+    word-break:break-word;
+}
+
+.last-info > ul {
+    list-style-type: none;
+    text-align: left;
+}
+
+.last-info > ul > li {
+    font-size: 20px;
+    margin-top: 5%;
+}
+
+.vk {
+    color: #0077FF;
+}
+
+.hh {
+    color: rgba(255, 97, 97, 0.658);
 }
