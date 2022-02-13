@@ -1,0 +1,10 @@
+.app.dark-theme {
+    background-color: black;
+    color: white;
+
+}
+
+.app.dark-theme .github-link {
+    background-color: white;
+    border-radius: 100%;
+}

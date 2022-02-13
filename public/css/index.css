@@ -1,0 +1,149 @@
+html{
+    scroll-behavior: smooth;
+ }
+
+.app { 
+    width: 100%;
+    padding: 20px;
+    position: relative;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Montserrat;
+}
+
+.cl1 {
+    width: 8.33%;
+}
+
+.cl2 {
+    width: 16.66%;
+}
+
+.cl3 {
+    width: 25%;
+}
+
+.cl4 {
+    width: 33.33%;
+}
+
+.cl6 {
+    width: 50%;
+}
+
+.cl12 {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.github-link {
+    width: 34px;
+    height: 34px;
+}
+
+.header-left, .header-right{
+    line-height: 34px;
+    vertical-align: baseline;
+}
+
+.app-navigation > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.app-navigation > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+.app-navigation > ul > li + li {
+    margin-left: 10px;
+}
+/* отсюда можно исправлять))) */
+.about-part {
+    font-family: Montserrat;
+    padding: 240px;
+}
+
+.heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.about-text {
+
+    margin-top: 5%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 37px;
+    align-items: flex-end;
+}
+
+.theme-for-blocks {
+    position: relative;
+    width: 1000px;
+    height: 500px;
+
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.line {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    width: 90%;
+    left: 45px;
+    height: 0px;
+    border: 2px solid #FFEB37;
+}
+
+.little-line {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+    width: 40%;
+    left: 30%;
+    height: 0px;
+    border: 2px solid #FFEB37;
+}
+
+.skills {
+    font-family: Montserrat;
+    padding: 240px;
+    text-align: center;
+}
+
+.contacts {
+    font-family: Montserrat;
+    padding: 240px;
+    text-align: center;
+}
+
+.contacts > .about-text >  .contacts-block > ul {
+    list-style-type: none;
+}
+
+.contacts > .about-text >  .contacts-block > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+
+.bio {
+    margin-top: 5%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 50px;
+    line-height: 61px;
+
+    color: #FFFFFF;
+}
