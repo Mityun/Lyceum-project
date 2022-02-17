@@ -43,31 +43,44 @@ body {
     justify-content: space-between;
 }
 
+.github-link > img {
+    top: -1px;
+    left: 0;
+    position: absolute;
+}
+
 .github-link {
     width: 40px;
     height: 40px;
+    display: block;
+    position: relative;
 }
+
+.header-logo {
+    line-height: 40px;
+}
+
 
 .header-left, .header-right{
     font-size: 28px;
-    line-height: 34px;
     vertical-align: baseline;
 }
 
 .app-navigation > ul {
     display: flex;
     list-style-type: none;
+    margin: 0;
 }
 
 .app-navigation > ul > li > a {
     color: white;
     text-decoration: none;
+    line-height: 40px;
 }
 
 .app-navigation > ul > li + li {
     margin-left: 15px;
 }
-/* отсюда можно исправлять))) */
 .about-part {
     font-family: Montserrat;
     padding: 240px;
@@ -81,12 +94,11 @@ body {
 }
 
 .about-text {
-
     margin-top: 5%;
     font-style: normal;
     font-weight: normal;
     font-size: 30px;
-    line-height: 37px;
+    line-height: 40px;
     align-items: flex-end;
 }
 
@@ -156,7 +168,8 @@ body {
 }
 
 .theme-switcher {
-    size: 40px;
+    height: 40px;
+    width: 40px;
 }
 /*skills tree */
 .skill-tree {
@@ -169,14 +182,12 @@ body {
 }
 
 .tree-pic {
-    text-emphasis: center;
-    position: relative;
     margin-top: 10%;
 }
 /* Python info in skills tree */
 .python-info {
     position: absolute;
-    margin-top: 25%;
+    margin-top: 40%;
     left: -10%;
     max-width: 400px;
     word-break:break-word;
@@ -194,7 +205,7 @@ body {
 /* GIT info in skills tree */
 .git-info {
     position: absolute;
-    margin-top: 55%;
+    margin-top: 76%;
     left: 60%;
     max-width: 400px;
     word-break:break-word;
@@ -212,7 +223,7 @@ body {
 /* Java info in skills tree */
 .java-info {
     position: absolute;
-    margin-top: 85%;
+    margin-top: 110%;
     left: -10%;
     max-width: 400px;
     word-break:break-word;
@@ -230,7 +241,7 @@ body {
 /* Javascript info in skills tree */
 .javascript-info {
     position: absolute;
-    margin-top: 112%;
+    margin-top: 142%;
     left: 60%;
     max-width: 400px;
     word-break:break-word;
@@ -248,7 +259,7 @@ body {
 /* Last info in skills tree */
 .last-info {
     position: absolute;
-    margin-top: 141%;
+    margin-top: 175.5%;
     left: -10%;
     max-width: 400px;
     word-break:break-word;

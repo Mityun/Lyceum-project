@@ -5,6 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="public/css/index.css">
     <link rel="stylesheet" href="public/css/dark.css" id="theme-link">
     <link rel="stylesheet" href="public/css/light.css">
@@ -14,12 +17,13 @@
 <body>
     <div class="app dark-theme" id="app">
         <div class="cl12 app-header flex">
-            <div class="header-left">
-                <a href="https://github.com/Mityun">
-                    <!-- https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg -->
-                    <img class="github-link" alt="github-link" src="public/pic/Untitledgithub-pic.svg">
-                 </a>
-                Open for new projects
+            <div class="header-left flex">
+                <div class="github-link-block">
+                    <a href="https://github.com/Mityun" class="github-link">
+                        <img alt="github-link" src="public/pic/Untitledgithub-pic.svg">
+                    </a>
+                </div>
+                <div class="header-logo">Open for new projects</div>
             </div>
             <div class="header-right flex">
                 <nav class="app-navigation">
@@ -28,17 +32,15 @@
                         <li><a href="#skills">skills</a></li>
                         <li><a href="#contacts">contacts</a></li>
                         <li><div class="theme-switcher" id="theme-button">
-                            <img class="theme-switcher" alt="theme" src="public/pic/moon_black_theme.svg (1).svg">
+                            <img class="theme-switcher dark-logo" alt="theme" src="public/pic/Untitleddark-moon.svg (1).svg">
+                            <img class="theme-switcher light-logo" alt="theme" src="public/pic/Untitledmoon (1).svg">
                         </div></li>
                     </ul>
                 </nav>
-    
             </div>
         </div>
-        <!-- отсюда можно исправлять))0) -->
     <div class="about-part">
         <p><a name="about"></a></p>
-        <!-- <div class="theme-for-blocks"> -->
             <div class="heading">
                 Hi!
             </div>
@@ -74,7 +76,7 @@
                         <h1>GIT</h1>
                         <ul>
                             <li>Regulary use it in all my projects. Also practise to work in school team using git</li>
-                            <li class="yellow-text">You can find my github account <a href="https://github.com/Mityun">here</a></li>
+                            <li class="yellow-text">You can find my account <a href="https://github.com/Mityun">here</a></li>
                         </ul>
                     </section>
                     <section class="java-info">
