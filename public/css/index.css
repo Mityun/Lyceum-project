@@ -65,7 +65,7 @@ body {
 }
 
 .app-navigation > ul > li + li {
-    margin-left: 10px;
+    margin-left: 15px;
 }
 /* отсюда можно исправлять))) */
 .about-part {
@@ -168,6 +168,8 @@ body {
 }
 
 .tree-pic {
+    text-emphasis: center;
+    position: relative;
     margin-top: 10%;
 }
 /* Python info in skills tree */
