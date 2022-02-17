@@ -79,8 +79,9 @@ body {
 }
 
 .app-navigation > ul > li + li {
-    margin-left: 15px;
+    margin-left: 25px;
 }
+/* Ð¾Ñ‚ÑÑŽÐ´Ð° Ð¼Ð¾Ð¶Ð½Ð¾ Ð¸ÑÐ¿Ñ€Ð°Ð²Ð»ÑÑ‚ÑŒ))) */
 .about-part {
     font-family: Montserrat;
     padding: 240px;
@@ -167,9 +168,10 @@ body {
     color: #FFFFFF;
 }
 
-.theme-switcher {
+.theme-switcher-img {
     height: 40px;
     width: 40px;
+    cursor: pointer;
 }
 /*skills tree */
 .skill-tree {
@@ -182,12 +184,14 @@ body {
 }
 
 .tree-pic {
+    text-emphasis: center;
+    position: relative;
     margin-top: 10%;
 }
 /* Python info in skills tree */
 .python-info {
     position: absolute;
-    margin-top: 30%;
+    margin-top: 25%;
     left: -10%;
     max-width: 400px;
     word-break:break-word;
@@ -205,7 +209,7 @@ body {
 /* GIT info in skills tree */
 .git-info {
     position: absolute;
-    margin-top: 66%;
+    margin-top: 55%;
     left: 60%;
     max-width: 400px;
     word-break:break-word;
@@ -223,7 +227,7 @@ body {
 /* Java info in skills tree */
 .java-info {
     position: absolute;
-    margin-top: 100%;
+    margin-top: 85%;
     left: -10%;
     max-width: 400px;
     word-break:break-word;
@@ -241,7 +245,7 @@ body {
 /* Javascript info in skills tree */
 .javascript-info {
     position: absolute;
-    margin-top: 132%;
+    margin-top: 112%;
     left: 60%;
     max-width: 400px;
     word-break:break-word;
@@ -259,7 +263,7 @@ body {
 /* Last info in skills tree */
 .last-info {
     position: absolute;
-    margin-top: 165%;
+    margin-top: 141%;
     left: -10%;
     max-width: 400px;
     word-break:break-word;
@@ -290,3 +294,7 @@ body {
   .light-theme .dark-logo {
    display: none
   }
+
+.theme-switcher-img-dark, .theme-switcher-img-light {
+    display: none;
+}

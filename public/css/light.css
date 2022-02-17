@@ -33,3 +33,7 @@
 .light-theme .git-info > ul > li > a {
     color: #ffc506;
 }
+
+.light-theme .theme-switcher-img-light {
+    display: unset;
+}
