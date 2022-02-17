@@ -37,3 +37,11 @@
 .light-theme .theme-switcher-img-light {
     display: unset;
 }
+
+.light-theme .block-info.blockleft div:nth-child(1) {
+    border-right: 0.3rem solid black;
+}
+
+.light-theme .block-info.blockright div:nth-child(2) {
+    box-shadow: -0.3rem 0 0 black;
+}

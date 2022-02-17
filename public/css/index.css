@@ -1,5 +1,6 @@
 html{
     scroll-behavior: smooth;
+    width: 100%;
  }
 
 .app { 
@@ -79,27 +80,26 @@ body {
 }
 
 .app-navigation > ul > li + li {
-    margin-left: 25px;
+    margin-left: 15px;
 }
 /* Ð¾Ñ‚ÑÑŽÐ´Ð° Ð¼Ð¾Ð¶Ð½Ð¾ Ð¸ÑÐ¿Ñ€Ð°Ð²Ð»ÑÑ‚ÑŒ))) */
 .about-part {
     font-family: Montserrat;
-    padding: 240px;
+    padding: 5% 15%;
 }
 
 .heading {
     margin-bottom: 5%;
     text-align: center;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 3rem;
 }
 
 .about-text {
     margin-top: 5%;
     font-style: normal;
     font-weight: normal;
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 1.8rem;
     align-items: flex-end;
 }
 
@@ -116,7 +116,7 @@ body {
     position: relative;
     margin-top: 20px;
     width: 90%;
-    left: 45px;
+    left: 5%;
     height: 0px;
     border: 2px solid #FFEB37;
 }
@@ -133,20 +133,20 @@ body {
 
 .skills {
     font-family: Montserrat;
-    padding: 240px;
+    padding: 5% 15%;
     text-align: center;
 }
 
 .contacts {
     font-family: Montserrat;
-    padding: 240px;
+    padding: 5% 15%;
     text-align: center;
 }
 
 .contacts > .about-text >  .contacts-block > ul {
     list-style-type: none;
     text-align: left;
-    font-size: 40px;
+    font-size: 2rem;
 }
 
 .contacts > .about-text >  .contacts-block > ul > li + li {
@@ -162,7 +162,7 @@ body {
     font-family: Montserrat;
     font-style: normal;
     font-weight: 500;
-    font-size: 50px;
+    font-size: 3rem;
     line-height: 61px;
 
     color: #FFFFFF;
@@ -178,104 +178,76 @@ body {
     position: relative;
 }
 
+.graph-logo {
+    position: absolute;
+    left: 45%;
+    width: 10%;
+}
+
 .svg-dark {
     margin-top: 10%;
     margin-bottom: 5%;
 }
 
-.tree-pic {
-    text-emphasis: center;
-    position: relative;
-    margin-top: 10%;
-}
 /* Python info in skills tree */
-.python-info {
-    position: absolute;
-    margin-top: 25%;
-    left: -10%;
-    max-width: 400px;
-    word-break:break-word;
+.block-info {
+    width: 100%;
+    position: relative;
 }
 
-.python-info > ul {
-    list-style-type: none;
+.yellow-circle {
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    background-color: yellow;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 1.65rem);
+}
+
+.yellow-circle-bottom {
+    top: unset;
+    bottom: 0;
+}
+
+.block-info.blockleft div:nth-child(1) {
+    border-right: 0.3rem solid white;
+    box-sizing: border-box;
+    padding-right: 1rem;
+}
+
+.block-info.blockleft div p {
+    word-wrap: break-word;
     text-align: left;
 }
 
-.python-info > ul > li {
-    font-size: 20px;
+.block-info.blockleft div h1 {
+    font-size: 2rem;
+    text-align: left;
+}
+
+.block-info.blockleft div:nth-child(1) p:nth-child(2) {
     margin-top: 5%;
 }
-/* GIT info in skills tree */
-.git-info {
-    position: absolute;
-    margin-top: 55%;
-    left: 60%;
-    max-width: 400px;
-    word-break:break-word;
+
+
+.block-info.blockright div:nth-child(2) {
+    box-shadow: -0.3rem 0 0 white;
+    box-sizing: border-box;
+    padding-left: 1rem;
 }
 
-.git-info > ul {
-    list-style-type: none;
-    text-align: left;
+.block-info.blockright div p {
+    word-wrap: break-word;
+    text-align: right;
 }
 
-.git-info > ul > li {
-    font-size: 20px;
-    margin-top: 5%;
-}
-/* Java info in skills tree */
-.java-info {
-    position: absolute;
-    margin-top: 85%;
-    left: -10%;
-    max-width: 400px;
-    word-break:break-word;
+.block-info.blockright div h1 {
+    font-size: 2rem;
+    text-align: right;
 }
 
-.java-info > ul {
-    list-style-type: none;
-    text-align: left;
-}
-
-.java-info > ul > li {
-    font-size: 20px;
-    margin-top: 5%;
-}
-/* Javascript info in skills tree */
-.javascript-info {
-    position: absolute;
-    margin-top: 112%;
-    left: 60%;
-    max-width: 400px;
-    word-break:break-word;
-}
-
-.javascript-info > ul {
-    list-style-type: none;
-    text-align: left;
-}
-
-.javascript-info > ul > li {
-    font-size: 20px;
-    margin-top: 5%;
-}
-/* Last info in skills tree */
-.last-info {
-    position: absolute;
-    margin-top: 141%;
-    left: -10%;
-    max-width: 400px;
-    word-break:break-word;
-}
-
-.last-info > ul {
-    list-style-type: none;
-    text-align: left;
-}
-
-.last-info > ul > li {
-    font-size: 20px;
+.block-info.blockright div:nth-child(2) p:nth-child(2) {
     margin-top: 5%;
 }
 
@@ -289,12 +261,34 @@ body {
 
 .dark-theme .light-logo {
     display: none
-  }
-  
-  .light-theme .dark-logo {
-   display: none
-  }
+}
+
+.light-theme .dark-logo {
+    display: none
+}
 
 .theme-switcher-img-dark, .theme-switcher-img-light {
     display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .app-navigation {
+        display: none;
+    }
+
+    .about-part {
+        padding: 0%;
+    }
+
+    .skills {
+        padding: 0%;
+    }
+
+    .contacts {
+        padding: 0%;
+    }
+
+    .graph-logo {
+        display: none;
+    }
 }
