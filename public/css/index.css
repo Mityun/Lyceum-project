@@ -270,3 +270,11 @@ body {
 .hh {
     color: rgba(255, 97, 97, 0.658);
 }
+
+.dark-theme .light-logo {
+    display: none
+  }
+  
+  .light-theme .dark-logo {
+   display: none
+  }
