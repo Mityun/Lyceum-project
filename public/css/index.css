@@ -187,7 +187,7 @@ body {
 /* Python info in skills tree */
 .python-info {
     position: absolute;
-    margin-top: 40%;
+    margin-top: 30%;
     left: -10%;
     max-width: 400px;
     word-break:break-word;
@@ -205,7 +205,7 @@ body {
 /* GIT info in skills tree */
 .git-info {
     position: absolute;
-    margin-top: 76%;
+    margin-top: 66%;
     left: 60%;
     max-width: 400px;
     word-break:break-word;
@@ -223,7 +223,7 @@ body {
 /* Java info in skills tree */
 .java-info {
     position: absolute;
-    margin-top: 110%;
+    margin-top: 100%;
     left: -10%;
     max-width: 400px;
     word-break:break-word;
@@ -241,7 +241,7 @@ body {
 /* Javascript info in skills tree */
 .javascript-info {
     position: absolute;
-    margin-top: 142%;
+    margin-top: 132%;
     left: 60%;
     max-width: 400px;
     word-break:break-word;
@@ -259,7 +259,7 @@ body {
 /* Last info in skills tree */
 .last-info {
     position: absolute;
-    margin-top: 175.5%;
+    margin-top: 165%;
     left: -10%;
     max-width: 400px;
     word-break:break-word;
